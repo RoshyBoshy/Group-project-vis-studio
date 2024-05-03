@@ -1,0 +1,138 @@
+﻿.form-container {
+    min-height: 457px;
+    width: 485px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: #4682B4;
+    text-align: center;
+    align-content: center;
+    border-radius: 20px;
+}
+
+.form {
+    padding-bottom: 50px;
+}
+
+
+.login {
+    background-color: green;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    height: 30px;
+    width: 80px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 8px;
+    font-family: 'Poetsen One';
+    font-weight: 500;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.register {
+    background-color: red;
+    height: 30px;
+    width: 95px;
+
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    font-size: 18px;
+    border-radius: 8px;
+    font-family: 'Poetsen One';
+    font-weight: 500;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.forgot:hover,
+.login:hover,
+.register:hover {
+    opacity: 0.59; /* Increase opacity */
+    transform: scale(1.05); /* Slightly increase size */
+}
+
+.forgot{
+    font-weight: bold;
+    text-decoration: underline;
+    border-radius: 8px;
+    padding: 2px;
+    font-family: 'Poetsen One';
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px; 
+    
+}
+
+
+
+.uname, .pword{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    padding-bottom: 3px;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+}
+
+.pword{
+    padding-top: 10px;
+}
+
+.error {
+    color: red;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh; 
+
+}
+
+.inputBox{
+    border-radius: 7px;
+    height: 20px;
+    width: 150px;
+    text-align: center;
+    font-family: 'Poetsen One';
+}
+
+h1 {
+    margin-bottom: -100px; 
+    color: white;
+}
+
+body{
+    background-color: #0e4166;
+    
+    font-family: 'Poetsen One', sans-serif;
+   
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+svg {
+    z-index: -1;
+    position: absolute;
+    margin-top: 100px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: block;
+    background-color: #0e4166;
+    background-image: linear-gradient(to bottom, rgba(14, 65, 102, 0.86), #0e4166);
+}   
+
